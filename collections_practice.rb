@@ -22,16 +22,16 @@ def remove_non_strings(array)
   container
 end
 
-# def first_wa(array)
-#   first_wa = nil
-#   array.each do |element|
-#     if element.match(/wa/)
-#       first_wa = element
-#       break
-#     end
-#   end
-#   first_wa
-# end
+def first_wa(array)
+  first_wa = nil
+  array.each do |element|
+    if element.match(/wa/)
+      first_wa = element
+      break
+    end
+  end
+  first_wa
+end
 
 # def find_cool(array)
 #   container = []
